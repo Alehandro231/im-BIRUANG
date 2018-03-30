@@ -3,20 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>BIRUANG</title>
     <link rel="stylesheet" href="./style.css"> </head>
+    <link rel="stylesheet" href="./css/unslider.css">
+    <link rel="stylesheet" href="./css/unslider-dots.css">
 
 <body>
     <header>
         <div class="center-block-main">
-            <div class="header-top">
+            <div class="header-top clearfix">
                 <p class="logo">biruang</p>
                 <div class="contact-basket">
                     <p class="header-phone"><img src="./img/call.jpg" alt="phone:+371 282 20 760">+371 282 20 760</p>
-                    <p class="header-basket"><img src="./img/canistrum.jpg" alt="basket">$ 99.54 <a href="#">Checkout</a></p>
+                    <p class="header-basket"><img src="./img/canistrum.jpg" alt="basket"><span>$ 99.54</span> <a href="#">Checkout</a></p>
                 </div>
             </div>
-            <div class="header-bottom">
+            <div class="header-bottom clearfix">
                 <nav>
                     <ul class="menu">
                         <li><a href="#">home</a></li>
@@ -37,6 +39,21 @@
             </div>
         </div>
     </header>
+    
+    <div class="my-slider">
+        <ul>
+            <li>My slide</li>
+            <li>Another slide</li>
+            <li>My last slide</li>
+        </ul>
+    </div>
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/unslider-min.js"></script>
+<script>
+    jQuery(document).ready(function($) {
+       $('.my-slider').unslider();
+    });
+</script>
 </body>
 
 </html>

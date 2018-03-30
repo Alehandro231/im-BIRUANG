@@ -94,3 +94,110 @@ img{
     display: table;
 }
 /* --------------- /базовые настройки ---------*/
+
+/* Стилизация верхнего header | лого контакты корзина */
+
+.center-block-main {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header-top {
+    padding: 34px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    float: left;
+    font-size: 1.416em;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.contact-basket {
+    float: right;
+}
+
+.contact-basket p {
+    float: left;
+    font-size: 0.75em;
+    font-weight: 700;
+}
+
+.contact-basket p img {
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+.contact-basket p span {
+    font-weight: 400;
+}
+
+.header-phone {
+    padding-top: 11px;
+}
+
+.header-basket {
+    border: 1px solid #eee;
+    padding: 10px 27px;
+    margin-left: 20px;
+}
+
+.header-basket a {
+    text-transform: uppercase;
+    color: #7e7f84;
+    text-decoration: none;
+    margin-left: 36px;
+}
+
+.header-basket a:hover {
+    color: #f45a40;
+}
+
+/* #/Стилизация верхнего header | лого контакты корзина */
+/* Стилизация нижнего header | меню поиск */
+
+.header-bottom {
+    padding: 15px 0;
+}
+
+.header-bottom .menu {
+    float: left;
+}
+
+.header-bottom .menu li {
+    float: left;
+    text-transform: uppercase;
+    margin-right: 35px;
+    font-size: 0.875em;
+}
+
+.header-bottom .menu li a {
+    color: #7e7f84;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.header-bottom .menu li:hover a {
+    color: #f45a40;
+}
+
+.header-bottom .search-block {
+    float: left;
+    margin-top: -2px;
+}
+
+.header-bottom .search-block .search-btn {
+    float: left;
+    margin: 3px 5px 0 0;
+}
+
+.header-bottom .search-block .search {
+    float: left;
+    color:  #7e7f84;
+    font-size: 0.875em;
+    border: none;
+    line-height: 1.4;
+}
+
+/* #/Стилизация нижнего header | меню поиск */
